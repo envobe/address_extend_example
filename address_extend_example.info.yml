@@ -1,0 +1,7 @@
+name: 'Address Extend Example'
+type: module
+description: 'Add additional (Addressee, Location name) fields to address field (Example).'
+core: 8.x
+package: 'Example'
+dependencies:
+  - address:address

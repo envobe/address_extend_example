@@ -1,0 +1,4 @@
+services:
+  address_extend_example.address_format_repository:
+    class: Drupal\address_extend_example\Repository\AddressFormatRepository
+    arguments: ['@event_dispatcher']
